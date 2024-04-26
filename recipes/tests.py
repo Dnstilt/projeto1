@@ -3,6 +3,6 @@ from django.test import TestCase
 # Create your tests here.
 
 
-class RecipeURLsTest(TestCase):
-    def test_the_pytest_is_ok(self):
-        assert 1 == 1, "Um e igual a um"  # noqa: E9
+class RecipeURLsTest(TestCase): 
+    def test_recipe_home_url_is_correct(self):
+        self.ass 
